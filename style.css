@@ -172,6 +172,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    opacity: 0.97;
 }
 .home .max-width{
   width: 100%;
@@ -469,7 +470,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgb(33, 20, 220);
+    color: rgb(56, 62, 143);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -541,7 +542,7 @@ section .title::after{
   background: none;
 }
 .right form .error-box{
-  color: rgb(20, 23, 220);
+  color: rgb(56, 62, 143);
   text-align: center;
   font-size: 17px;
   border-radius: 5px;
@@ -561,7 +562,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: rgb(23, 20, 220);
+    color: rgb(56, 62, 143);
     text-decoration: none;
 }
 footer span a:hover{
