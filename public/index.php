@@ -202,23 +202,6 @@
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
-            <!-- <form
-                action="https://formspree.io/f/meqvgzqa"
-                method="POST"
-            >
-                <label>
-                    Your email:
-                    <input type="email" name="_replyto">
-                </label>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
-
-                your other form fields go here
-
-                <button type="submit">Send</button>
-        </form> -->
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
@@ -282,4 +265,13 @@
 
     <script src="script.js"></script>
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 </html>
