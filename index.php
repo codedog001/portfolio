@@ -26,7 +26,7 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#projects" class="menu-btn">projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -116,7 +116,7 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>I develop fullstack mobile and web applications, that not only have great look n feel, but also have amazing performance.</p>
-                    <a href="#teams">View Projects</a>
+                    <a href="#projects">View Projects</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -166,8 +166,8 @@
         </div>
     </section>
 
-    <!-- teams section start -->
-    <section class="teams" id="teams">
+    <!-- projects section start -->
+    <section class="projects" id="projects">
         <div class="max-width">
             <h2 class="title">Personal Projects</h2>
             <div class="carousel owl-carousel">
