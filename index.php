@@ -43,7 +43,7 @@
                 <div class="text-1">Hello There!</div>
                 <div class="text-2">I'm Mohit</div>
                 <div class="text-3">I'm a <span class="typing"></span></div>
-                <a href="#">Contact Me</a>
+                <a href="#contact">Contact Me</a>
             </div>
           </div>
       </div>
@@ -55,13 +55,17 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/profile-1.jpeg" alt="">
+                    <span class="imageHolder">
+                    <img src="images/pic2.png" alt="" />
+                    <span class="caption"><br>Hi, it's Me! 😎</span>
+                    </span>
+                    <!-- <img src="images/pic2.png" alt=""> -->
                 </div>
                 <div class="column right">
                     <div class="text">I'm Mohit and I'm a <span class="typing-2"></span></div>
                     <p>I am a pre-final year B.tech CSE student at ABES EC. I love development, that's what I do all day. 
                         <br />For a year, I have worked as an ethical hacker in the field of cybersecurity and I am a Certified Ethical Hacker (CEH v10).</p>
-                    <a href="#">Download CV</a>
+                    <a href="resume.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -74,23 +78,29 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
+                    <i class="fab fa-react"></i>
                         <div class="text">Frontend Development</div>
                         <p>I develop web application frontend using React and Flutter</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="fab fa-python"></i>
                         <div class="text">Backend Development</div>
                         <p>I develop web application backend using Django</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
+                        <span><i class="fab fa-apple"></i></span>
+                        
+                        <span class="text" style=";font-size:15px;">&nbsp;  &nbsp;</span> 
+                        <span><i class="fas fa-times" style="font-size:19px;padding-bottom:12px"></i></i></span>
+                        <span class="text" style=";font-size:15px;">&nbsp;  &nbsp;</span> 
+                        <span> <i class="fab fa-android"></i></span>
                         <div class="text">Mobile <br />App Development</div>
                         <p>I develop cross-platform mobile applications using Flutter</p>
+                        
                     </div>
                 </div>
                </div>
@@ -106,7 +116,7 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>I develop fullstack mobile and web applications, that not only have great look n feel, but also have amazing performance.</p>
-                    <a href="#">Read more</a>
+                    <a href="#teams">View Projects</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
