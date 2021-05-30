@@ -60,7 +60,7 @@
                 <div class="column right">
                     <div class="text">I'm Mohit and I'm a <span class="typing-2"></span></div>
                     <p>I am a pre-final year B.tech CSE student at ABES EC. I love development, that's what I do all day. 
-                        <br />For a year, I have worked in the field of cybersecurity and I am a Certified Ethical Hacker, who later discovered his passion in development.</p>
+                        <br />For a year, I have worked as an ethical hacker in the field of cybersecurity and I am a Certified Ethical Hacker (CEH v10).</p>
                     <a href="#">Download CV</a>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">App Development</div>
+                        <div class="text">Mobile <br />App Development</div>
                         <p>I develop cross-platform mobile applications using Flutter</p>
                     </div>
                 </div>
@@ -152,41 +152,29 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My teams</h2>
+            <h2 class="title">Personal Projects</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
+            
+                <div class="card" >
                     <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <img src="images/hand.jpg" alt=""> -->
+                        <div class="text"><a href="https://github.com/codedog001/sign_language_translator_ml_flutter" style="color:rgb(255, 234, 45)" target="_blank" rel="noopener noreferrer">Sign Language Translator</a></div>
+                        <p><a href="https://github.com/codedog001/sign_language_translator_ml_flutter" style="color:white">A mobile application that translates American Sign Language into English in realtime. It works without the presence of an internet connection, performing on-device machine learining.</a></p>
+                    </div>
+                    
+                </div>
+                <div class="card" >
+                    <div class="box">
+                        <!-- <img src="images/profile-2.jpeg" alt=""> -->
+                        <div class="text"><a href="https://github.com/codedog001/sign_language_translator_ml_flutter" style="color:rgb(255, 234, 45)" target="_blank" rel="noopener noreferrer">Coordinates Tagger</a></div>
+                        <p><a href="https://github.com/codedog001/flutter_MySQL_app" style="color:white">A mobile application that tags the image with current location coordinates, and stores them in a Firebase storage, the link of these images is stored in a MySQL database, hosted on an Ubuntu server.</a></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" >
                     <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <img src="images/profile-2.jpeg" alt=""> -->
+                        <div class="text"><a href="https://github.com/codedog001/sign_language_translator_ml_flutter" style="color:rgb(255, 234, 45)" target="_blank" rel="noopener noreferrer">Today's Tiffin</a></div>
+                        <p><a href="https://github.com/codedog001/flutter_MySQL_app" style="color:white">A mobile application created for Om Sai tiffin service. It is available for evryone who is registered with their service, it shows menu that is updated on daily basis, a push notification is delivered in case of delay.</a></p>
                     </div>
                 </div>
             </div>

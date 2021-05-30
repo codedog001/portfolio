@@ -386,7 +386,10 @@ section .title::after{
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -410,8 +413,8 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid rgb(56, 62, 143);
