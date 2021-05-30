@@ -105,44 +105,58 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>I develop fullstack mobile and web applications, that not only have great look n feel, but also have amazing performance.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
                             <span>Flutter</span>
-                            <span>90%</span>
+                            <span>93%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Django</span>
-                            <span>60%</span>
+                            <span>85%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>80%</span>
+                            <span>90%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>React JS</span>
-                            <span>50%</span>
+                            <span>87%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Python</span>
-                            <span>70%</span>
+                            <span>88%</span>
                         </div>
                         <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Communication</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Communication</span>
+                            <span>94%</span>
+                        </div>
+                        <div class="line comm"></div>
                     </div>
                 </div>
             </div>
