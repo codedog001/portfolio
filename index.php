@@ -139,17 +139,10 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Python</span>
+                            <span>C++</span>
                             <span>88%</span>
                         </div>
                         <div class="line mysql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Communication</span>
-                            <span>87%</span>
-                        </div>
-                        <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -199,6 +192,23 @@
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
+            <!-- <form
+                action="https://formspree.io/f/meqvgzqa"
+                method="POST"
+            >
+                <label>
+                    Your email:
+                    <input type="email" name="_replyto">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+
+                your other form fields go here
+
+                <button type="submit">Send</button>
+        </form> -->
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
@@ -229,20 +239,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <form action="https://formspree.io/f/meqvgzqa" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name">
+                                <input type="text" name="_name" class="fullname" placeholder="Name">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
+                                <input type="email" name="_replyto" class="email-input" placeholder="Email" >
                             </div>
                         </div>
-                        <div class="field">
-                            <input type="text" class="subject" placeholder="Subject">
-                        </div>
+                        <!-- <div class="field"> -->
+                            <input type="hidden" value="Message From Portfolio!" name="_subject">
+                        <!-- </div> -->
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <textarea name="message" class="message" cols="30" rows="10" placeholder="Message.."></textarea>
                         </div>
                         <div class="button-area">
                             <button class="send-msg" type="submit" name="send">Send message</button>
@@ -252,6 +262,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
 
     <!-- footer section start -->
