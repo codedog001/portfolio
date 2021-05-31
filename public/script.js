@@ -110,13 +110,4 @@ $(document).ready(function(){
     //     });
     // });
 
-    function validateForm() {
-        var x = document.forms["myForm"]["_name"].value;
-        var y = document.forms["myForm"]["_replyto"].value;
-        var z = document.forms["myForm"]["messaage"].value;
-        if (x == "" || y == "" || z == "") {
-          alert("All fields must be filled");
-          return false;
-        }
-      }
 });
