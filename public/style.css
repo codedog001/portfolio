@@ -257,30 +257,7 @@ section .title::after{
     color: rgb(57, 20, 220);
     background: none;
 }
-/* lllllllllllllllllllll */
 
-.imageHolder {
-    position: relative;
-    width: 50px;
-    height: 50px;
-  }
-  .imageHolder .caption {
-    opacity: 0;
-    position: absolute;
-    height:50px;
-    width: 150px;
-    bottom: 10px;
-    left: 250px;
-    padding: 2px 0px;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    text-align: center;
-    font-weight:bold;
-    font-size: 17px;
-  }
-  .imageHolder:hover .caption {
-    opacity: 0.85;
-  }
 
 /* services section styling */
 .services, .projects{
