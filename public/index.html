@@ -54,6 +54,7 @@
                 </section>
             </div>
         </div>
+        <div 
         <div class="text col-sm-6" align="center">
             Hi<span class="wave">👋</span>, I'm <span>Mohit Jain.</span>
             <div>
@@ -75,9 +76,35 @@
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
-                </div>
+                    <div class="newWrapper" align="center">
+                        <h5>Relax your mind while you're here... 🎧</h5>
+                            <a align="center" class="social-icon linkedin" id="iconSong" href= "javascript: void(0)" rel="author">
+                                <i onclick="myFunction(this)" class="fas fa-play"></i>
+                            </a>
+                    </div>
+                </div>                
             </div>
         </div>
+        
+        
+        <audio id = "mySong">
+            <source src = "images/kbja.mp3" type="audio/mp3"> 
+        </audio>
+
+        <script>
+            var iconSong = document.getElementById("iconSong");
+        
+            function myFunction(x){
+                var mySong = document.getElementById("mySong");
+                if(mySong.paused){
+                    // x.classList.toggle('fas fa-play');
+                    mySong.play();
+                }else{
+                    // x.classList.toggle('fas fa-pause');
+                    mySong.pause();
+                }
+            }
+        </script>
         <!--========== About Me ==========-->
         <section class="about section bd-container" id="about">
             <h2 class="section-title">About Me</h2>
