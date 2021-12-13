@@ -766,7 +766,7 @@ p {
   }
 
   .menu__container {
-    grid-template-columns: repeat(3, 280px);
+    grid-template-columns: repeat(2, 280px);
     column-gap: 4rem;
   }
   .menu__content {
